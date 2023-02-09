@@ -23,26 +23,18 @@ body {
     padding: 15px 30px;
 }
 
-/* ul li{
-    display:inline-block;
-    text-align:center;
-    background-color: aquamarine;
-    }
-    .menu{
-    color:rgb(10, 10, 10);
-     background-color: aliceblue;
-    } */
 #nav a {
+    display: inline;
     width: 75%;
     font-size: 150%;
     font-family: impact;
     color: #008080;
-   margin-right: 12px;
+    padding-left: 1%;
 }
 
 li a {
     color: #008080;
-}
+} 
 
 #elementos {
     font-family: impact;
@@ -58,15 +50,16 @@ li a {
     color: #008080;
     margin-left: 44%;
 }
-
+#completo{
+    
+}
 #partes {
+    margin: 100px 20% 0 ;
     background: white;
-    width: 50%;
-    margin-left: 25%;
-    margin-top: 8%;
     border-radius: 25px;
     border: 5px solid #008080;
-    padding: 4%;
+   padding: 0 3% 2% 3%;
+    
 }
 #me {
     border-radius: 25px;
@@ -83,7 +76,6 @@ li a {
 
 #contenedoriconos {
     text-align: center;
- 
     padding: 3%;
 }
 
@@ -95,8 +87,7 @@ li a {
 #imgproyectos {
     border-radius: 25px;
     border: 2px solid black;
-    margin-left: 1%;
-    margin-right: 4%;
+    
 }
 
 #tittles {
@@ -108,9 +99,7 @@ li a {
 
 #proyectos {
     text-align: center;
-    margin: 2%;
-    width: 300px;
-    padding: 2%;
+    padding: 1%;
 }
 #proyectos h4 {
     font-family: fantasy;
@@ -122,13 +111,8 @@ li a {
     font-family: fantasy;
     margin-top: 3%;
     margin-left: 20%;
+    font-size: x-large;
 }
-
-#botoncertificados {
-
-    width: 100px;
-}
-
 #procesos {
     font-family: fantasy;
     margin-left: 20%;
@@ -160,6 +144,10 @@ li a {
 #contenedorlenguajes {
     margin-left: 15%;
 }
+#imglenguajes {
+    width: 100px;
+    
+}
 
 #contenedorlenguajes img {
     padding: 2%;
@@ -179,4 +167,20 @@ li a {
 }
 #contenedorcontact a:hover {
     text-decoration: underline;
+   
 }
+i svg{
+    width: 30px;
+}
+@media screen and (max-width: 640px) {
+    #nav a {
+        font-size: 100%;
+    }
+    #contenedorcontact a {
+        font-size: 70%;
+    }
+    #pcertificados{
+        margin-left: 20%;
+        font-size: small;
+    }
+  }
