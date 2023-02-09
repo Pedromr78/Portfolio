@@ -62,7 +62,7 @@ li a {
     
 }
 #me {
-    border-radius: 25px;
+    border-radius: 50%;
     border: 2px solid black;
     width: 100%;
     margin-top: 15px;
@@ -133,6 +133,9 @@ li a {
     background-color: black;
     color: white;
     text-decoration: none;
+}
+#pcertificados{
+    margin-left: 20%;
 }
 
 #acertificado:hover {
