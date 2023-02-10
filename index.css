@@ -115,6 +115,7 @@ li a {
     border: 2px solid black;
     width: 110px;
     padding: 5px 10px;
+    font-size: small;
 }
 
 #acertificado {
