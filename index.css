@@ -143,14 +143,11 @@ li a {
 #contenedorlenguajes {
     margin-left: 15%;
 }
-#imglenguajes {
-    width: 100px;
-    
-}
+
 
 #contenedorlenguajes img {
-    padding: 2%;
-    width: 10%;
+    padding: 1%;
+    width: 9%;
     margin-left: 4%;
 }
 
@@ -177,11 +174,19 @@ i svg{
         width: 0%;
        
     }
+    #contenedorlenguajes {
+        margin: 10px 5% 0 ;
+    }
+    #contenedorlenguajes img {
+       
+        width: 13%;
+        margin-left: 2%;
+    }
     #contenedorcontact a {
         font-size: 70%;
     }
     #pcertificados{
-        margin: 10px 5% 0 ;
+        
         font-size: small;
     }
     #partes{
