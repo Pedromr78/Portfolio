@@ -29,20 +29,15 @@ body {
     font-size: 150%;
     font-family: impact;
     color: #008080;
-    padding-left: 1%;
+    outline: none;
+    text-decoration: none;
 }
 
 li a {
     color: #008080;
 } 
 
-#elementos {
-    font-family: impact;
-    color: #008080;
-    outline: none;
-    text-decoration: none;
-    font-size: 20px
-}
+
 
 .titulo {
     margin-top: 4%;
@@ -177,7 +172,9 @@ i svg{
 }
 @media screen and (max-width: 640px) {
     #nav a {
-        font-size: 100%;
+        font-size: medium;
+        width: 0%;
+       
     }
     #contenedorcontact a {
         font-size: 70%;
@@ -202,11 +199,18 @@ i svg{
         margin: 10px 5% 0 ;
         font-size:medium;
       }
+      
+      #nav {
+        padding: 1px;
+        height: 40px;
+      }
   }
   @media screen and (max-width: 250px) {
     #texto1{
         font-size:small;
+
     }
+    
   }
   @media screen and (min-width: 640px) and (max-width: 1280px) {
   #partes{
