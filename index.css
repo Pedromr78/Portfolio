@@ -69,7 +69,7 @@ li a {
 }
 
 #texto {
-    font-family: fantasy;
+    font-family: Arial Black;
     margin-top: 3%;
     text-align: left;
 }
@@ -102,13 +102,13 @@ li a {
     padding: 1%;
 }
 #proyectos h4 {
-    font-family: fantasy;
+    font-family: Arial Black;
     margin-top: 3%;
     text-align: center;
 }
 
 #texto1 {
-    font-family: fantasy;
+    font-family: Arial Black;
     margin-top: 3%;
     margin-left: 20%;
     font-size: x-large;
