@@ -189,8 +189,7 @@ i svg{
       }
       #texto1{
         margin: 10px 5% 0 ;
-        font-size:50%;
-      
+   font-size: medium;
       }
       #procesos{
         margin: 10px 5% 0 ;
@@ -208,8 +207,7 @@ i svg{
   }
   @media screen and (max-width: 250px) {
     #texto1{
-        font-size:small;
-
+      
     }
     
   }
